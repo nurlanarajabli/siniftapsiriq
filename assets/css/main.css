@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d5a80;
+}
+header .containerHeader {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .containerHeader .left p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  text-align: left;
+}
+header .containerHeader nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .containerHeader nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+header .containerHeader nav ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+header .containerHeader nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+header .containerHeader .button {
+  width: Fixed 187px;
+  height: Fixed 48px;
+  top: 34px;
+  left: 1098px;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid transparent;
+}
+header .containerHeader .button button {
+  height: 35px;
+  width: 90px;
+  background-color: #ee6c4d;
+}
+
+#sectionOne {
+  background-color: #3d5a80;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#sectionOne .writingArea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  line-height: 35px;
+  padding: 30px;
+  margin: 30px;
+  height: 60%;
+  width: 40%;
+}
+#sectionOne .writingArea h2 {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: left;
+}
+#sectionOne .writingArea p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+}
+#sectionOne .writingArea button {
+  width: Fixed 187px px;
+  height: Fixed 48px px;
+  top: 438px;
+  left: 160px;
+  padding: 12px 18px 12px 18px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ee6c4d;
+  margin-top: 15px;
+}
+#sectionOne .image {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+#sectionOne .image .photo1 {
+  z-index: 1;
+}
+#sectionOne .image .photo2 {
+  position: absolute;
+  margin-right: 42px;
+}
+
+#sectionTwo {
+  background-color: #293241;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#sectionTwo .containerTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sectionTwo .containerTop .imgTwo {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+#sectionTwo .containerTop .write {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 15px;
+}
+#sectionTwo .containerTop .write h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+#sectionTwo .containerTop .write .line {
+  background-color: #ee6c4d;
+  height: 3px;
+  width: 50%;
+}
+#sectionTwo .containerTop .write p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#sectionFive {
+  background-color: #293241;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+#sectionFive .bottom {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#sectionFive .bottom h2 {
+  color: white;
+  width: 382px;
+  height: 52px;
+  top: 1178px;
+  left: 492px;
+  padding-top: 35px;
+}
+#sectionFive .bottom .lineTwo {
+  background-color: #ee6c4d;
+  height: 3px;
+  width: 13%;
+  margin-right: 45px;
+}
+
+#sectionSix {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293241;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#sectionSix .topWrite {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#sectionSix .topWrite h3 {
+  display: flex;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+#sectionSix .topWrite .lineThree {
+  width: 20%;
+  height: 3px;
+  background-color: #ee6c4d;
+}
+#sectionSix .photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+}
+#sectionSix .photos .photoImg {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-bottom: 25px;
+}
+#sectionSix .photos .pteqi {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+#sectionSix .bottombtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+#sectionSix .bottombtn .btntwo {
+  width: 18%;
+  height: 40px;
+  border: 2px solid #ee6c4d;
+  background-color: transparent;
+  padding-top: 4px;
+}
+
+#sectionSeven {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F3746;
+  flex-direction: column;
+}
+#sectionSeven .sectionWrite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#sectionSeven .sectionWrite .htwo {
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+#sectionSeven .sectionWrite .lineFive {
+  width: 30%;
+  height: 3px;
+  background-color: #ee6c4d;
+}
+#sectionSeven .containerDiv {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sectionSeven .containerDiv .photoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4509803922);
+  height: 150px;
+  width: 40%;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 9px;
+  padding: 6px;
+}
+#sectionSeven .containerDiv .photoDiv img {
+  width: 15%;
+  height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 9px;
+  padding-left: 9px;
+}
+#sectionSeven .containerDiv .photoDiv p {
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+#sectionSeven .containerDiv .photoDiv .photowriting {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding-right: 15px;
+  font-size: 12px;
+}
+#sectionSeven .noWord {
+  width: 95px;
+  height: 11px;
+  top: 2562px;
+  left: 635px;
+  margin-top: 75px;
+}
+
+#sectionEnd {
+  width: 100%;
+  height: 400px;
+  background-color: #3D5A80;
+}
+#sectionEnd .endWrite {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+}
+#sectionEnd .endWrite .endH {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 9px;
+}
+#sectionEnd .endWrite .endLine {
+  width: 26%;
+  height: 3px;
+  background-color: #EE6C4D;
+  margin-top: 10px;
+}
+#sectionEnd .form {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  gap: 4px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#sectionEnd .form .text {
+  background-color: rgba(0, 0, 0, 0.3803921569);
+  color: #ffffff;
+  width: 504px;
+  height: 38px;
+  top: 2768px;
+  left: 159px;
+  border-radius: 3px 0px 0px 0px;
+}
+#sectionEnd #message {
+  margin-left: 50px;
+  width: 80%;
+  height: 200px;
+}
+#sectionEnd #message .name {
+  background-color: rgba(0, 0, 0, 0.3803921569);
+}
+#sectionEnd .endBtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+#sectionEnd .endBtn .btnEnd {
+  width: 12%;
+  height: 30px;
+  background-color: #EE6C4D;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #293241;
+}
+
+.endFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 100px;
+  margin-left: 25px;
+  background-color: #293241;
+}
+.endFooter .icon {
+  display: flex;
+  justify-content: flex-end;
+}
